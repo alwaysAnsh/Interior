@@ -1,8 +1,11 @@
 *{
-  overflow-x: hidden;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   margin: 0 auto;
   
+}
+body,html{
+  overflow-x: hidden;
+
 }
 .cta {
   position: relative;
@@ -38,7 +41,8 @@
 
 .cta svg {
   position: relative;
-  top: 0;
+  top: -18px;
+  left: 70px;
   margin-left: 10px;
   fill: none;
   stroke-linecap: round;
@@ -94,6 +98,29 @@
 .swiper-slide img {
   display: block;
   width: 100%;
+}
+
+.card{
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Define transition properties */
+
+}
+.card:hover{
+  transform: scale(1.05); /* Increase size by 5% on hover */
+  /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); */
+  box-shadow: 0 5px 10px rgba(0, 30, 126, 0.2);
+}
+.glow-background {
+  position: absolute; /* Position the div over the gallery content */
+  top: 0;
+  left: 0;
+  width: 100%; /* Match the width of the gallery container */
+  height: 100%; /* Match the height of the gallery container */
+  background-color: rgba(151, 151, 53, 0.2); /* Set a slight white background color */
+  border-radius: 50%; /* Make the div round */
+  filter: blur(150px); /* Apply a strong blur effect */
+  /* Optional: Adjust these properties for customization */
+  z-index: -1; 
+  mix-blend-mode: lighten; /* Create a radiant glow effect */
 }
 
 /* #root {

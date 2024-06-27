@@ -7,8 +7,8 @@ const CountSection = () => {
   return (
     <div className=' z-10 flex flex-row justify-evenly w-full relative bg-darkblue p-10' >
       <div className='overflow-hidden flex flex-col  items-center gap-4' >
-        <h3 className='text-8xl font-playfair text-zinc-100 overflow-hidden' >1000+</h3>
-        <p className='text-zinc-400' >Satisfied Customers</p>
+        <h3 className='text-8xl font-playfair text-white overflow-hidden' >1000+</h3>
+        <p className='text-white' >Satisfied Customers</p>
       </div>
       <div className='h-52 w-52 rounded-md' >
         <img src={living} alt="living room interior" />

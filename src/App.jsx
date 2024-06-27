@@ -8,6 +8,7 @@ import AnimatedCursor from "react-animated-cursor"
 import Services from './components/Services'
 import Footer from './components/Footer'
 import Testimonials from './components/Testimonials'
+import Gallery from './components/Gallery'
 
 function App() {
   
@@ -52,7 +53,9 @@ function App() {
         <CountSection/>
         <Services/>
         {/* <Testimonials/> */}
+        <Gallery/>
         <Footer/>
+       
       </div>
     </>
   )
