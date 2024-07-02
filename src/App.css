@@ -123,6 +123,58 @@ body,html{
   mix-blend-mode: lighten; /* Create a radiant glow effect */
 }
 
+.shadow-overlay {
+  position: absolute;
+  bottom: 10px; /* Start at the top of the image */
+  left: 0; /* Start at the left of the image */
+  width: 100%; /* Match the image width */
+  height: 30%; /* Match the image height */
+  /* background-color: rgba(5, 5, 5, 0.902);  */
+  background-color: rgba(108, 218, 204, 0.648); /* Black color with 50% opacity */
+  filter: blur(80px);
+  opacity: 0.7;
+}
+
+@media (max-width: 850px) {
+  .navbar {
+    background-color: #65cabc22;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100vw;
+    z-index: 50;
+  }
+}
+@media (max-width: 850px) {
+  .nav-items {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(12, 12, 28);
+    gap: 12px;
+  }
+}
+@media (min-width: 860px)  {
+  .navbar {
+    display: none ;
+  }
+}
+@media (min-width: 860px)  {
+  .nav-items {
+    display: none ;
+  }
+}
+.servicesSoFar{
+  background-color: #0307258e;
+}
+
 /* #root {
   max-width: 1280px;
   margin: 0 auto;

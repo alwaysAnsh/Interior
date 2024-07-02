@@ -9,6 +9,10 @@ import Services from './components/Services'
 import Footer from './components/Footer'
 import Testimonials from './components/Testimonials'
 import Gallery from './components/Gallery'
+import {Routes, Route} from 'react-router-dom'
+import ServicesPage from './pages/ServicesPage'
+import Home from './pages/Home'
+import About from './pages/About'
 
 function App() {
   
@@ -48,13 +52,13 @@ function App() {
         }
       ]}
     />
-        <Navbar/>
-        <Hero/>
-        <CountSection/>
-        <Services/>
-        {/* <Testimonials/> */}
-        <Gallery/>
-        <Footer/>
+      
+        <Routes>
+          <Route path='/' element={<Home/>} />
+          <Route path='/our-services' element={<ServicesPage/>} />
+          <Route path='/about-us' element={<About/>} />
+      </Routes>
+      <Footer/>
        
       </div>
     </>

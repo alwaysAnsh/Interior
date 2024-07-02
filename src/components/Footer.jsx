@@ -22,12 +22,7 @@ const Footer = () => {
           License
         </a>
       </li>
-      {/* <li>
-        <a href="#"
-          class="block font-sans text-base antialiased font-normal leading-relaxed transition-colors text-blue-gray-900 hover:text-darkblue focus:text-darkblue">
-          Contribute
-        </a>
-      </li> */}
+      
       <li>
         <a href="#"
           class="block font-sans text-base antialiased font-normal leading-relaxed transition-colors text-blue-gray-900 hover:text-darkblue focus:text-darkblue">
