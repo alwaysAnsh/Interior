@@ -3,10 +3,13 @@ import image from '../assets/landingImage.jpg'
 import Button from '../components/frequentyUsed/Button'
 // import { TypeAnimation } from 'react-type-animation';
 import Testimonials from '../components/Testimonials';
+import Navbar from '../components/Navbar';
+import {Link} from 'react-router-dom'
 
 const About = () => {
   return (
     <div className='' >
+      <Navbar/>
         <div className='relative' >
             <img src={image} alt="image containing interior " className=' w-full h-[400px] relative' />
             <div className=' absolute left-[28%] bottom-[8%] z-10 flex flex-col gap-6 items-center justify-center' >

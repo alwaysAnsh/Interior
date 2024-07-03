@@ -20,8 +20,8 @@ const Gallery = () => {
     <div className='mt-6  flex flex-col gap-6' >
 
         <div className='flex flex-col gap-4 text-left' >
-            <h1 className='font-playfair text-5xl text-darkblue' >Inspiration for home interior designs</h1>
-            <h3>Give your home a new look with these interior design ideas curated for you</h3>
+            <h1 className='font-playfair md:text-3xl sm:text-3xl  lg:text-5xl text-darkblue' >Inspiration for home interior designs</h1>
+            <h3 className='sm:text-sm text-lg' >Give your home a new look with these interior design ideas curated for you</h3>
         </div>
         
         <div class="grid grid-cols-2 gap-2 md:grid-cols-4 relative">

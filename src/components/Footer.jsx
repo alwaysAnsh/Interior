@@ -1,6 +1,7 @@
 import React from 'react'
 import room2 from '../assets/room2.jpg'
 import logo from '../assets/logo.png'
+import {Link} from 'react-router-dom'
 
 
 const Footer = () => {
@@ -11,23 +12,29 @@ const Footer = () => {
     <img src={logo} alt="logo-ct" class="w-28" />
     <ul class="flex flex-wrap items-center gap-y-2 gap-x-8">
       <li>
-        <a href="#"
+        <Link to='/about-us' >
+        <a 
           class="block font-sans text-base antialiased font-normal leading-relaxed transition-colors text-blue-gray-900 hover:text-darkblue focus:text-darkblue">
           About Us
         </a>
+        </Link>
       </li>
       <li>
-        <a href="#"
+        <Link to='/our-services' >
+        <a 
           class="block font-sans text-base antialiased font-normal leading-relaxed transition-colors text-blue-gray-900 hover:text-darkblue focus:text-darkblue">
-          License
+          Our Services
         </a>
+        </Link>
       </li>
       
       <li>
-        <a href="#"
+        <Link to='/contact-us' >
+        <a 
           class="block font-sans text-base antialiased font-normal leading-relaxed transition-colors text-blue-gray-900 hover:text-darkblue focus:text-darkblue">
           Contact Us
         </a>
+        </Link>
       </li>
     </ul>
   </div>

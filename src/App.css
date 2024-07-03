@@ -137,8 +137,8 @@ body,html{
 
 @media (max-width: 850px) {
   .navbar {
-    background-color: #65cabc22;
-    padding: 5px 10px;
+    background-color: #0e1b3b8a;
+    padding-top:5px ;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -148,6 +148,7 @@ body,html{
     height: 50px;
     width: 100vw;
     z-index: 50;
+    font-family: playfair;
   }
 }
 @media (max-width: 850px) {
@@ -158,7 +159,8 @@ body,html{
     align-items: center;
     justify-content: center;
     color: rgb(12, 12, 28);
-    gap: 12px;
+    gap: 4px;
+    font-weight: 600;
   }
 }
 @media (min-width: 860px)  {

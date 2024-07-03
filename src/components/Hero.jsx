@@ -1,5 +1,6 @@
 import React from 'react'
-import heroSection from '../assets/landing.jpg'
+import heroSection from '../assets/heroSection.png'
+import smallscreen from '../assets/smallscreen.png'
 import chairs from '../assets/chairs.png'
 import '../App.css'
 
@@ -28,7 +29,8 @@ const Hero = () => {
            
            
             <div>
-            <img className=' md:h-[760px]  w-screen overflow-y-hidden' src={heroSection} alt="image containing furnitures and images of living rooms" />
+            <img className=' sm:hidden md:hidden lg:h-[760px] lg:block  w-screen overflow-y-hidden' src={heroSection} alt="image containing furnitures and images of living rooms" />
+            <img className=' sm:h-full md:h-full lg:hidden xl:hidden 2xl:hidden  w-screen overflow-y-hidden' src={smallscreen} alt="image containing furnitures and images of living rooms" />
             </div>
         {/* </div>   */}
                 

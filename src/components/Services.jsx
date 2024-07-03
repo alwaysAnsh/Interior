@@ -19,9 +19,9 @@ import Button from './frequentyUsed/Button';
   export default function Services() {
     return (
       <div className='mt-5 flex flex-col gap-6  ' >
-        <div className='md:flex md:flex-col md:gap-4 md:text-center' >
-            <h1 className='font-playfair text-darkblue md:text-6xl ' >One-stop shop for all things interiors</h1>
-            <h3 className='w-[50%] mx-auto ' >Be it end-to-end interiors, renovation or modular solutions, we have it all for your home or office. With a wide range of furniture & decor, we have your back from start to finish</h3>
+        <div className='flex flex-col gap-4 text-center' >
+            <h1 className='font-playfair text-darkblue lg:text-5xl md:text-3xl sm:text-3xl xl:text-6xl ' >One-stop shop for all things interiors</h1>
+            <h3 className='lg:w-[90%] md:w-[95%] sm:w-[95%] xl:w-[50%] mx-auto ' >Be it end-to-end interiors, renovation or modular solutions, we have it all for your home or office. With a wide range of furniture & decor, we have your back from start to finish</h3>
         </div>
         <div className='flex flex-row flex-wrap gap-4' >
             <Cards image={interior} heading={"Modular Interiors"} subheading={"Functional kitchen, wardrobe and storage"} />
