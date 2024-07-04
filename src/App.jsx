@@ -13,6 +13,7 @@ import {Routes, Route} from 'react-router-dom'
 import ServicesPage from './pages/ServicesPage'
 import Home from './pages/Home'
 import About from './pages/About'
+import { ContactUs } from './pages/ContactUs'
 
 function App() {
   
@@ -57,6 +58,7 @@ function App() {
           <Route path='/' element={<Home/>} />
           <Route path='/our-services' element={<ServicesPage/>} />
           <Route path='/about-us' element={<About/>} />
+          <Route path='/contact-us' element={<ContactUs/>} />
       </Routes>
       <Footer/>
        
