@@ -7,11 +7,15 @@ module.exports = withMT({
      extend: {
             fontFamily: {
               playfair: "'Playfair Display', serif",
+              maven: "'Maven Pro', sans-serif;",
             },
             colors:{
               sandbrown: '#c89666',
               lightgreen: '#F4FCED',
-              darkblue: '#030725'
+              darkblue: '#030725',
+              violet: '#7c3aed',
+              emerald500: '#10b981',
+              emerald900: '#064e3b',
             }
           },
           screens: {

@@ -30,7 +30,7 @@ import {
           <Typography className='font-playfair' variant="h4" color="blue-gray">
             {heading}
           </Typography>
-          <Typography variant="lead" color="gray" className="mt-3 font-normal text-md">
+          <Typography variant="lead" color="gray" className="mt-3 font-maven text-md">
             {subheading}
           </Typography>
         </CardBody>
@@ -55,7 +55,7 @@ import {
               />
             </Tooltip>
           </div> */}
-          <Typography className="font-normal text-darkblue">Explore</Typography>
+          {/* <Typography className="font-normal text-darkblue">Explore</Typography> */}
         </CardFooter>
       </Card>
     );
