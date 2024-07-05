@@ -9,7 +9,7 @@ const CountSection = () => {
   const [counteron, setCounterOn ] = useState(false);
   return (
     <ScrollTrigger onEnter={() => setCounterOn(true)} onExit = {() => setCounterOn(false)} >
-      <div className=' z-10 flex md:flex-col sm:flex-col  lg:flex-row md:justify-center lg:justify-evenly w-full sm:gap-6 gap-0 relative bg-darkblue  lg:p-10 lg:mt-2' >
+      <div className=' z-10 flex md:flex-col sm:flex-col  lg:flex-row md:justify-center lg:justify-evenly w-full sm:gap-6 gap-0 relative bg-darkblue  lg:p-10 sm:mt-2' >
       <div className='overflow-hidden flex flex-col  items-center gap-4' >
         <div className='flex flex-row items-center justify-center gap-2' >
         {counteron && <CountUp end={100} duration={3} className=' lg:text-7xl md:text-5xl sm:text-5xl xl:text-8xl font-playfair text-white overflow-hidden'/>}<span className=' lg:text-3xl md:text-xl text-white sm:text-2xl xl:text-4xl'  >+</span>

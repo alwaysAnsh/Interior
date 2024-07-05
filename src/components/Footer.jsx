@@ -6,44 +6,44 @@ import {Link} from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <footer class="w-full p-8 bg-white">
-  <div
-    class="flex flex-row flex-wrap items-center justify-start text-center bg-white gap-y-6 gap-x-12 md:justify-between">
-    <Link to='/' >
-      <img src={logo} alt="logo-ct" class="w-28" />
-    </Link>
-    <ul class="flex flex-wrap items-center gap-y-2 gap-x-8">
-      <li>
+    <footer class="flex flex-col space-y-10 justify-center m-10">
+
+    <nav class="flex justify-center flex-wrap gap-6 text-gray-500 font-medium">
+      <Link to='/' >
+        <a class="hover:text-gray-900">Home</a>
+        </Link>
+
         <Link to='/about-us' >
-        <a 
-          class="block font-sans text-base antialiased font-normal leading-relaxed transition-colors text-blue-gray-900 hover:text-darkblue focus:text-darkblue">
-          About Us
-        </a>
+          <a class="hover:text-gray-900" >About</a>
         </Link>
-      </li>
-      <li>
         <Link to='/our-services' >
-        <a 
-          class="block font-sans text-base antialiased font-normal leading-relaxed transition-colors text-blue-gray-900 hover:text-darkblue focus:text-darkblue">
-          Our Services
-        </a>
+        <a class="hover:text-gray-900" >Services</a>
         </Link>
-      </li>
-      
-      <li>
-        <Link to='/contact-us' >
-        <a 
-          class="block font-sans text-base antialiased font-normal leading-relaxed transition-colors text-blue-gray-900 hover:text-darkblue focus:text-darkblue">
-          Contact Us
-        </a>
+        {/* <a class="hover:text-gray-900" href="#">Media</a>
+        <a class="hover:text-gray-900" href="#">Gallery</a> */}
+        <Link to='/contact-us'>
+          <a class="hover:text-gray-900" >Contact</a>
         </Link>
-      </li>
-    </ul>
-  </div>
-  <span class="block my-8 border-t border-blue-gray-50" />
-  <p class="block font-sans text-base antialiased font-normal leading-relaxed text-center text-blue-gray-900">
-    © 2024 Digital Interior
-  </p>
+    </nav>
+
+    <div class="flex justify-center space-x-5">
+        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <img src="https://img.icons8.com/fluent/30/000000/facebook-new.png" />
+        </a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <img src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
+        </a>
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
+        </a>
+        <a href="https://messenger.com" target="_blank" rel="noopener noreferrer">
+            <img src="https://img.icons8.com/fluent/30/000000/facebook-messenger--v2.png" />
+        </a>
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+            <img src="https://img.icons8.com/fluent/30/000000/twitter.png" />
+        </a>
+    </div>
+    <p class="text-center text-gray-700 font-medium">&copy; 2024 Digital Interiors All rights reservered.</p>
 </footer>
   )
 }

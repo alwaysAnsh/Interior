@@ -9,6 +9,7 @@ import Navbar from '../components/Navbar'
 import Cards from '../components/frequentyUsed/Cards'
 import Works from '../components/frequentyUsed/Works'
 import ServicesSoFar from '../components/ServicesSoFar'
+import ServiceCard from '../components/frequentyUsed/ServiceCard'
 
 
 
@@ -38,11 +39,26 @@ const ServicesPage = () => {
        
         
         
-       <div className='bg-darkblue' >
+       {/* <div className='bg-darkblue' >
        <Works direction={"lg:flex-row md:flex-col-reverse sm:flex-col-reverse"} background={"bg-lightgreen"} image={image4}  heading={"Construction & Renovation"} subheading={"Our construction and renovation expertise tackles everything from roof repairs and exterior revamps to custom decks and window installations. We can even incorporate sleek, low-maintenance aluminum siding, soffits, fascia, and railings.  For a touch of timeless elegance and security, our ironwork services create beautiful gates, fences, and decorative elements.  Need a modern touch? We offer stunning stainless steel solutions for railings, countertops, appliances, and more. "}/>
         <Works  direction={"flex-row-reverse"} background={"bg-white"} image={glasswork} heading={"Interior Design & Carpentry"} subheading={"Moving inside, we design and build dream kitchens with modular cabinets and components that maximize storage and optimize your culinary adventures.  Closets become organized sanctuaries with custom-made wardrobes perfectly tailored to your needs.  And for a distinctive touch on your walls, we offer a variety of decorative wall panels to add a unique flair to your space."}/>
         <Works direction={"flex-row"} background={"bg-lightgreen"} image={glasswork2} heading={"Interior Finishing"} subheading={"Let's not forget the final flourish! Our skilled painters breathe new life into your space with a fresh coat of paint, tackling walls, ceilings, trim, and accents.  Elevate your interior design with stunning wallpaper options, from classic patterns to modern prints.  Finally, strategically placed glass partitions, shower enclosures, mirrors, and decorative glass elements can enhance both the beauty and functionality of your home."}/>
-       </div>
+       </div> */}
+        <div className='mx-auto text-center lg:mt-8 mb-8'>
+            <h2 className='lg:text-4xl font-bold font-playfair lg:mb-6 ' >Services we offer</h2>
+          <div className='flex flex-wrap flex-row gap-1' >
+            <ServiceCard heading={"Exterior work"}/>
+            <ServiceCard heading={"Modular Kitchen"}/>
+            <ServiceCard heading={"Wordrobe"} />
+            <ServiceCard heading={"Wall Panels"}/>
+            <ServiceCard heading={"Paint Work"} />
+            <ServiceCard heading={"Wallpaper dising"}/>
+            <ServiceCard heading={"Glass Work"} />
+            <ServiceCard heading={"Aluminium and Iron Works"} />
+            
+            
+          </div>
+        </div>
 
         <h1 className='mx-auto text-center font-extrabold sm:text-2xl md:text-2xl lg:text-4xl xl:text-5xl font-playfair uppercase mb-5  text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-pink-800' >Services so Far</h1>
       <ServicesSoFar/>
