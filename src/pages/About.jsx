@@ -19,6 +19,11 @@ const About = () => {
             </div>
             
             </div>
+            <div>
+            <video  autoPlay={false} controls className=' sm:h-full sm:block mt-10 lg:h-[400px]  xl:hidden 2xl:hidden  w-screen overflow-y-hidden'    alt="video of interior design by digital interiors"> 
+              <source   src={promotion} type='video/mp4' />
+            </video>
+            </div>
             <div className='mx-auto w-11/12 text-center mt-8 mb-8 pt-8 pb-8' >
             
             <ol className='flex flex-col gap-4 bg-green-50 rounded-md md:p-4 sm:pl-2 sm:pr-2 sm:pt-8 sm:pb-8' >
@@ -74,11 +79,7 @@ const About = () => {
     /> */}
                 
             </div>
-            <div>
-            <video  autoPlay={false} controls className=' sm:h-full sm:block  lg:h-[400px]  xl:hidden 2xl:hidden  w-screen overflow-y-hidden'    alt="video of interior design by digital interiors"> 
-              <source   src={promotion} type='video/mp4' />
-            </video>
-            </div>
+            
             <Testimonials/>
     </div>
   )

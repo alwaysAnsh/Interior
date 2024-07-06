@@ -7,6 +7,7 @@ import { FaFacebookMessenger } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { PiInstagramLogoFill } from "react-icons/pi";
+import { scrollToTop } from '../utils/srollToTop';
 
 
 const Footer = () => {
@@ -15,18 +16,18 @@ const Footer = () => {
       <footer className="flex flex-col space-y-5   justify-center mt-3 mb-16   ">
 
 <nav class="flex justify-center flex-wrap gap-6 text-white font-medium mt-4 ">
-  <Link to='/' >
-    <a className="hover:text-yellow-500 transition-all duration-200 ">Home</a>
+  <Link to='/' onClick={scrollToTop} >
+    <a className="hover:text-yellow-500 transition-all duration-200 " >Home</a>
     </Link>
 
-    <Link to='/about-us' >
+    <Link to='/about-us'onClick={scrollToTop}  >
       <a className="hover:text-yellow-500 transition-all duration-200 " >About</a>
     </Link>
-    <Link to='/our-services' >
+    <Link to='/our-services' onClick={scrollToTop} >
     <a className="hover:text-yellow-500 transition-all duration-200 " >Services</a>
     </Link>
     
-    <Link to='/contact-us'>
+    <Link to='/contact-us' onClick={scrollToTop} >
       <a className="hover:text-yellow-500 transition-all duration-200 " >Contact</a>
     </Link>
 </nav>

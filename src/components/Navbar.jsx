@@ -6,6 +6,7 @@ import { MdOutlineCleaningServices } from "react-icons/md";
 import { RiCustomerService2Fill } from "react-icons/ri";
 import {Link} from 'react-router-dom'
 import { IoLogoWhatsapp } from "react-icons/io";
+import {scrollToTop} from '../utils/srollToTop'
 
 
 
@@ -13,13 +14,13 @@ import { IoLogoWhatsapp } from "react-icons/io";
 const Navbar = () => {
   return (
     <div className=' navbar ' >
-        <Link to='/' >
+        <Link to='/'onClick={scrollToTop}  >
       <div className = 'nav-items  ' >
         <IoHomeOutline />
         <span>Home</span>
       </div>
         </Link>
-        <Link to='/contact-us' >
+        <Link to='/contact-us' onClick={scrollToTop} >
       <div className = ' nav-items' >
       <RiCustomerService2Fill />
         <span>Contact</span>
@@ -32,13 +33,13 @@ const Navbar = () => {
         </a>
         </div>
 
-        <Link to='/about-us' >
+        <Link to='/about-us'onClick={scrollToTop}  >
       <div className = 'nav-items '>
       <IoPersonSharp />
         <span>About</span>
       </div>
         </Link>
-        <Link to='/our-services' >
+        <Link to='/our-services'onClick={scrollToTop}  >
       <div className = 'nav-items ' >
         <MdOutlineCleaningServices />
         <span>Services</span>

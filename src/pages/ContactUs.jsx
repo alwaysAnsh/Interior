@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import Navbar from '../components/Navbar';
 import { IoLogoWhatsapp } from "react-icons/io";
@@ -10,6 +10,7 @@ import { PiInstagramLogoFill } from "react-icons/pi";
 
 export const ContactUs = () => {
   const form = useRef();
+  const [emailSent, setEmailSent ] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -20,13 +21,16 @@ export const ContactUs = () => {
       })
       .then(
         () => {
+            setEmailSent(true);
           console.log('SUCCESS!');
         },
         (error) => {
+            setEmailSent(false);
           console.log('FAILED...', error.text);
         },
       );
   };
+  
 
   return (
     //   <form ref={form} onSubmit={sendEmail}>
@@ -187,6 +191,11 @@ export const ContactUs = () => {
                     Send Message
                 </button>
             </form>
+            <div>
+                {
+                    emailSent ? <div className='text-green-700 text-bold' >Sent Successfully</div> : <div className=''></div>
+                }
+            </div>
         </div>
     </div>
 </div>

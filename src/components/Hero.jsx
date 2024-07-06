@@ -13,7 +13,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 
 const Hero = () => {
   return (
-    <div className = 'z-10 relative flex flex-row items-center justify-center  overflow-hidden   h-[90vh]  ' >
+    <div id='home' className = 'z-10 relative flex flex-row items-center justify-center  overflow-hidden   h-[90vh]  ' >
         
         <div className='flex flex-row items-center overflow-hidden justify-evenly relative' >
            
