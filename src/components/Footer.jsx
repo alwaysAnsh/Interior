@@ -14,31 +14,31 @@ const Footer = () => {
     <div className='w-screen bg-black border-t-2' >
       <footer className="flex flex-col space-y-5   justify-center mt-3 mb-16   ">
 
-<nav class="flex justify-center flex-wrap gap-6 text-gray-500 font-medium mt-4 ">
+<nav class="flex justify-center flex-wrap gap-6 text-white font-medium mt-4 ">
   <Link to='/' >
-    <a class="hover:text-gray-900">Home</a>
+    <a className="hover:text-yellow-500 transition-all duration-200 ">Home</a>
     </Link>
 
     <Link to='/about-us' >
-      <a class="hover:text-gray-900" >About</a>
+      <a className="hover:text-yellow-500 transition-all duration-200 " >About</a>
     </Link>
     <Link to='/our-services' >
-    <a class="hover:text-gray-900" >Services</a>
+    <a className="hover:text-yellow-500 transition-all duration-200 " >Services</a>
     </Link>
     
     <Link to='/contact-us'>
-      <a class="hover:text-gray-900" >Contact</a>
+      <a className="hover:text-yellow-500 transition-all duration-200 " >Contact</a>
     </Link>
 </nav>
 
 <div class="flex justify-center space-x-5 ">
-    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+    <a href="https://m.facebook.com/100069336482916/"  target="_blank" rel="noopener noreferrer">
     <FaFacebook className='text-xl text-blue-800' />
     </a>
-    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+    <a href="https://m.facebook.com/100069336482916/" target="_blank" rel="noopener noreferrer">
     <FaFacebookMessenger className='text-xl text-blue-500' />
     </a>
-    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.instagram.com/mr.naseem_mobil_no_9012841693?igsh=enAxOHl2eWt0ZXNw" target="_blank" rel="noopener noreferrer">
     <PiInstagramLogoFill className='text-[21px] text-pink-400'/>
     </a>
     <a href="https://wa.me/9012841693" target="_blank" rel="noopener noreferrer">

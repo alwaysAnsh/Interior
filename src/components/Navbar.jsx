@@ -28,7 +28,7 @@ const Navbar = () => {
 
         <div>
         <a href="https://wa.me/9012841693" target="_blank" rel="noopener noreferrer">
-          <IoLogoWhatsapp className='text-4xl  text-center rounded-full border-2 border-green-900 text-green-500' />
+          <IoLogoWhatsapp className='text-4xl  text-center rounded-full bg-black border-2 border-green-600 text-green-600' />
         </a>
         </div>
 

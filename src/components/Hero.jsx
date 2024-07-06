@@ -24,12 +24,12 @@ const Hero = () => {
         </a> */}
           </div>
 
-            <div className='lg:w-[40%]     md:top-[23%] md:gap-4 overflow-hidden flex flex-col absolute sm:hidden md:block lg:block lg:gap-6 lg:top-[30%] lg:left-[10%]' >
+            <div className='lg:w-[40%]     md:top-[23%] md:gap-4 overflow-hidden lg:flex lg:flex-col absolute sm:hidden md:block  lg:gap-6 lg:top-[30%] lg:left-[10%]' >
             <h1 className=' font-maven lg:text-6xl overflow-hidden lg:text-white sm:hidden md:hidden lg:block '  >
                   Experience the Interior Minimilist with <span className='lg:bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400  lg:inline-block lg:text-transparent lg:bg-clip-text font-playfair  sm:font-bold text-black   md:mt-4 sm:hidden md:hidden   ' >Digital Interiors</span>
                 </h1>
                 <p className='font-bold lg:bg-gradient-to-r from-cyan-200 via-purple-500 to-pink-500 lg:bg-clip-text lg:text-transparent font-maven lg:text-xl sm:text-white  italic  sm:hidden md:hidden lg:block' >"From bland to grand, by an expert hand."</p>
-                <div className='overflow-hidden  w-full  lg:block md:hidden sm:hidden lg:mx-auto ' >
+                {/* <div className='overflow-hidden   w-full  lg:block md:hidden sm:hidden lg:mx-auto ' >
                 <button className="cta">
           <a href="https://wa.me/7617231365" target="_blank" rel="noopener noreferrer">Contact</a>
           <svg width="15px" height="10px" viewBox="0 0 13 10">
@@ -37,7 +37,7 @@ const Hero = () => {
             <polyline points="8 1 12 5 8 9"></polyline>
           </svg>
         </button>
-</div> 
+</div>  */}
             </div>
            
            
