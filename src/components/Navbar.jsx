@@ -5,6 +5,8 @@ import { IoPersonSharp } from "react-icons/io5";
 import { MdOutlineCleaningServices } from "react-icons/md";
 import { RiCustomerService2Fill } from "react-icons/ri";
 import {Link} from 'react-router-dom'
+import { IoLogoWhatsapp } from "react-icons/io";
+
 
 
 
@@ -23,6 +25,13 @@ const Navbar = () => {
         <span>Contact</span>
       </div>
         </Link>
+
+        <div>
+        <a href="https://wa.me/9012841693" target="_blank" rel="noopener noreferrer">
+          <IoLogoWhatsapp className='text-4xl  text-center rounded-full border-2 border-green-900 text-green-500' />
+        </a>
+        </div>
+
         <Link to='/about-us' >
       <div className = 'nav-items '>
       <IoPersonSharp />

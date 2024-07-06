@@ -17,11 +17,11 @@ const Home = () => {
         
         <Gallery/>
         <Testimonials/>
-        <div className='flex flex-col items-center justify-center mx-auto mt-5'>
+        {/* <div className='flex flex-col items-center justify-center mx-auto mt-5'>
           <div  >
             <Button/>
           </div>
-        </div>
+        </div> */}
     </div>
   )
 }

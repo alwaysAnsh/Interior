@@ -60,7 +60,9 @@ function App() {
           <Route path='/about-us' element={<About/>} />
           <Route path='/contact-us' element={<ContactUs/>} />
       </Routes>
-      <Footer/>
+      <div className='' >
+        <Footer/>
+      </div>
        
       </div>
     </>

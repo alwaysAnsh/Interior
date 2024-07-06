@@ -17,10 +17,10 @@ const Testimonials = () => {
                     <p class="sm:text-xl md:text-2xl leading-normal">My<mark class="mx-1 text-indigo-800 bg-indigo-100 rounded-md ring-indigo-100 ring-4 dark:ring-indigo-900 dark:bg-indigo-900 dark:text-indigo-200">kitchen</mark>was a mess! Now it's beautiful and easy to use, thanks to Digital Interiors. Cooking is fun again!</p>
                     <div class="flex items-center mt-8 space-x-3">
                         <div class="flex-shrink-0 overflow-hidden rounded-full w-14 h-14">
-                            <img alt="Avatar" src="https://images.unsplash.com/photo-1511485977113-f34c92461ad9?crop=faces&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwxfDB8MXxhbGx8fHx8fHx8fHwxNjIwMTQ5ODEx&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=100&amp;h=100" loading="lazy" />
+                            <img alt="Avatar" src="https://i.pinimg.com/736x/98/1d/6b/981d6b2e0ccb5e968a0618c8d47671da.jpg" loading="lazy" />
                         </div>
                         <div>
-                            <div class="text-lg font-medium">Anika</div>
+                            <div class="text-lg font-medium">Aditi</div>
                             <div class="text-gray-600 dark:text-gray-400">Software Engineer</div>
                         </div>
                     </div>
@@ -31,7 +31,8 @@ const Testimonials = () => {
                     <p class="sm:text-lg md:text-2xl leading-normal">My apartment was messy! <mark class="mx-1 text-indigo-800 bg-indigo-100 rounded-md ring-indigo-100 ring-4 dark:ring-indigo-900 dark:bg-indigo-900 dark:text-indigo-200">Digital Interiors</mark> helped organize with cool storage. Now finding instruments is easy, practice is peaceful. Makes music even better!"</p>
                     <div class="flex items-center mt-8 space-x-3">
                         <div class="flex-shrink-0 overflow-hidden rounded-full w-14 h-14">
-                            <img alt="Avatar" src="https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;crop=faces&amp;fit=crop&amp;w=100&amp;h=100&amp;q=80" loading="lazy" />
+                            {/* <img alt="Avatar" src="https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;crop=faces&amp;fit=crop&amp;w=100&amp;h=100&amp;q=80" loading="lazy" /> */}
+                            <img alt="Avatar" src="https://i.pinimg.com/736x/98/1d/6b/981d6b2e0ccb5e968a0618c8d47671da.jpg" loading="lazy" />
                         </div>
                         <div>
                             <div class="text-lg font-medium">Vikram</div>
@@ -48,10 +49,11 @@ const Testimonials = () => {
 </p>
                     <div class="flex items-center mt-8 space-x-3">
                         <div class="flex-shrink-0 overflow-hidden rounded-full w-14 h-14">
-                            <img alt="Avatar" src="https://images.unsplash.com/photo-1624224971170-2f84fed5eb5e?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=100&amp;h=100&amp;crop=faces&amp;q=80" loading="lazy" />
+                            {/* <img alt="Avatar" src="https://images.unsplash.com/photo-1624224971170-2f84fed5eb5e?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=100&amp;h=100&amp;crop=faces&amp;q=80" loading="lazy" /> */}
+                            <img alt="Avatar" src="https://i.pinimg.com/736x/98/1d/6b/981d6b2e0ccb5e968a0618c8d47671da.jpg" loading="lazy" />
                         </div>
                         <div>
-                            <div class="text-lg font-medium">Dev</div>
+                            <div class="text-lg font-medium">Rahul</div>
                             <div class="text-gray-600 dark:text-gray-400">Teacher</div>
                         </div>
                     </div>

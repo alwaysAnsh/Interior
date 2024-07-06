@@ -112,9 +112,9 @@ const Gallery = () => {
     </div>
   </div>
 </div>
-    <div>
+    {/* <div>
         <Button/>
-    </div>
+    </div> */}
     </div>
   )
 }

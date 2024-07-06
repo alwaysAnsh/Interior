@@ -10,6 +10,15 @@ import Cards from '../components/frequentyUsed/Cards'
 import Works from '../components/frequentyUsed/Works'
 import ServicesSoFar from '../components/ServicesSoFar'
 import ServiceCard from '../components/frequentyUsed/ServiceCard'
+import interior from '../assets/interior.jpg'
+import living from '../assets/living.jpg'
+import room2 from '../assets/room2.jpg'
+import room from '../assets/livingInterior.jpg'
+import furniture from '../assets/furniture.jpg'
+import lightning from '../assets/lightning.jpg'
+import falsec from '../assets/false.jpg'
+import paint from '../assets/paintandart.jpg'
+import civil from '../assets/civil.jpg'
 
 
 
@@ -25,7 +34,7 @@ const ServicesPage = () => {
             <img src={image} alt="image containing interior " className=' w-full  sm:h-[500px] md:h-[550px] lg:h-[700px] relative' />
             <div className=' absolute sm:left-[10%] sm:bottom-[4%] md:left-[12px] md:bottom-[4%] lg:left-[28%] lg:bottom-[8%] z-10 flex flex-col gap-6 items-center justify-center' >
                 <h1 className='font-playfair lg:text-5xl md:text-4xl sm:text-3xl text-white  font-bold text-center' >Dream Interiors made possible</h1>
-                <div><Button/></div>
+                {/* <div><Button/></div> */}
             </div>
             </div>
             <div className='shadow-overlay' ></div>            
@@ -45,16 +54,30 @@ const ServicesPage = () => {
         <Works direction={"flex-row"} background={"bg-lightgreen"} image={glasswork2} heading={"Interior Finishing"} subheading={"Let's not forget the final flourish! Our skilled painters breathe new life into your space with a fresh coat of paint, tackling walls, ceilings, trim, and accents.  Elevate your interior design with stunning wallpaper options, from classic patterns to modern prints.  Finally, strategically placed glass partitions, shower enclosures, mirrors, and decorative glass elements can enhance both the beauty and functionality of your home."}/>
        </div> */}
         <div className='mx-auto text-center lg:mt-8 mb-8'>
-            <h2 className='lg:text-4xl font-bold font-playfair lg:mb-6 ' >Services we offer</h2>
-          <div className='flex flex-wrap flex-row gap-1' >
-            <ServiceCard heading={"Exterior work"}/>
+            <h2 className='lg:text-4xl font-bold font-playfair lg:mb-6 sm:text-3xl sm:mb-2 sm:mt-2 sm:text-red-600' >Services we offer</h2>
+          <div className='flex flex-wrap flex-row gap-4' >
+            
+          <Cards image={furniture} heading={"Furniture Works"} subheading={"We design Wardrobes, Kitchen Cabinets based"} />
+          <Cards image={lightning} heading={"Lightning Works"} subheading={"Best projects and products in the commercial"} />
+          <Cards image={falsec} heading={"False Ceiling"} subheading={"Changing business climate, workplace design"} />
+          <Cards image={paint} heading={"Paint & Art works"} subheading={"Designing hospital area with equipments needs"} />
+          <Cards image={glasswork} heading={"Civil Works"} subheading={"Will differentiate from the ordinary restaurants"} />
+          <Cards image={glasswork2} heading={"Industrial Designs"} subheading={"Will differentiate you from the restaurants"} />
+          <Cards image={interior} heading={"Modular Kitchens"} subheading={"Functional kitchen, wardrobe and storage"} />
+          <Cards image={living} heading={"Full Home Interiors"} subheading={"Turnkey Interior Solutions for your home"} />
+          <Cards image={room} heading={"Luxury Interiors"} subheading={"Tailored Interiors that refine elegance"} />
+          <Cards image={room2} heading={"Renovations"} subheading={"Expert Solutions to upgrade your home"} />
+
+            
+            
+            {/* <ServiceCard heading={"Exterior work"}/>
             <ServiceCard heading={"Modular Kitchen"}/>
             <ServiceCard heading={"Wordrobe"} />
             <ServiceCard heading={"Wall Panels"}/>
             <ServiceCard heading={"Paint Work"} />
             <ServiceCard heading={"Wallpaper dising"}/>
             <ServiceCard heading={"Glass Work"} />
-            <ServiceCard heading={"Aluminium and Iron Works"} />
+            <ServiceCard heading={"Aluminium and Iron Works"} /> */}
             
             
           </div>
@@ -62,11 +85,11 @@ const ServicesPage = () => {
 
         <h1 className='mx-auto text-center font-extrabold sm:text-2xl md:text-2xl lg:text-4xl xl:text-5xl font-playfair uppercase mb-5  text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-pink-800' >Services so Far</h1>
       <ServicesSoFar/>
-      <div className=' mt-5 mb-5 flex flex-col items-center justify-center mx-auto  ' >
+      {/* <div className=' mt-5 mb-5 flex flex-col items-center justify-center mx-auto  ' >
         <div>
         <Button/>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

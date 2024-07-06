@@ -9,17 +9,7 @@ const ServiceCard = ({heading}) => {
                 <p className='font-maven p-2 font-semibold' >{heading}</p>
             </div>
                 
-                {/* <div class="card">
-        <a class="card1" href="#">
-            <p>This is heading</p>
-            <p class="small">Card description with lots of great facts and interesting details.</p>
-            <div class="go-corner" href="#">
-            <div class="go-arrow">
-                →
-            </div>
-            </div>
-        </a>
-        </div> */}
+                
     </div>
   )
 }

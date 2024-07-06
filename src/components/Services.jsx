@@ -40,7 +40,9 @@ import Button from './frequentyUsed/Button';
             
         </div>
         <div>
-            <Button/>
+          
+            <Button label='Explore more' path={'/our-services'} />
+          
         </div>
         
       </div>
