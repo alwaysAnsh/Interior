@@ -5,6 +5,7 @@ import Button from '../components/frequentyUsed/Button'
 import Testimonials from '../components/Testimonials';
 import Navbar from '../components/Navbar';
 import {Link} from 'react-router-dom'
+import promotion from '../assets/promotion.mp4'
 
 const About = () => {
   return (
@@ -72,6 +73,11 @@ const About = () => {
       repeat={Infinity}
     /> */}
                 
+            </div>
+            <div>
+            <video  autoPlay={false} controls className=' sm:h-full sm:block  lg:h-[400px] xl:hidden 2xl:hidden  w-screen overflow-y-hidden'    alt="video of interior design by digital interiors"> 
+              <source   src={promotion} type='video/mp4' />
+            </video>
             </div>
             <Testimonials/>
     </div>
