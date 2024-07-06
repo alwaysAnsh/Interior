@@ -20,7 +20,7 @@ const About = () => {
             
             </div>
             <div>
-            <video  autoPlay={false} controls className=' sm:h-full sm:block mt-10 lg:h-[400px]  xl:hidden 2xl:hidden  w-screen overflow-y-hidden'    alt="video of interior design by digital interiors"> 
+            <video  autoPlay={false} controls className=' sm:h-full sm:block mt-10 lg:h-[400px]  xl:block xl:h-[400px] 2xl:block 2xl:h-[400px]  w-screen overflow-y-hidden'    alt="video of interior design by digital interiors"> 
               <source   src={promotion} type='video/mp4' />
             </video>
             </div>
