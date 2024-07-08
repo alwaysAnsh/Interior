@@ -22,9 +22,9 @@ const CountSection = () => {
         <img src={living} alt="living room interior" />
       </div>
       <div className='flex flex-col gap-4 lg:w-[30%] w-full' >
-        <h2 className='font-playfair text-2xl text-yellow-200 sm:pl-2 md:pl-2 lg:pl-0' >Cozy Sofa</h2>
+        <h2 className='font-playfair text-2xl text-yellow-200 sm:pl-2 md:pl-2 lg:pl-0' >We Provide...</h2>
         <p className='text-white sm:pl-2 md:pl-2 lg:pl-0 sm:pb-4 md:pb-4 lg:pb-0 text-sm font-maven ' >
-        We provide expert paint work, stylish false ceilings, sleek gypsum ceilings, precise fabrication, reliable civil work, transformative home renovation, high-quality aluminum and uPVC installations, and elegant glass work       </p>
+        expert paint work, stylish false ceilings, sleek gypsum ceilings, precise fabrication, reliable civil work, transformative home renovation, high-quality aluminum and uPVC installations, and elegant glass work       </p>
       </div>
       
     </div>
