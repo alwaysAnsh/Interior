@@ -11,7 +11,7 @@ import Works from '../components/frequentyUsed/Works'
 import ServicesSoFar from '../components/ServicesSoFar'
 import ServiceCard from '../components/frequentyUsed/ServiceCard'
 import interior from '../assets/interior.jpg'
-import living from '../assets/living.jpg'
+import upvc from '../assets/upvc.jpg'
 import room2 from '../assets/room2.jpg'
 import room from '../assets/livingInterior.jpg'
 import furniture from '../assets/furniture.jpg'
@@ -54,19 +54,20 @@ const ServicesPage = () => {
         <Works direction={"flex-row"} background={"bg-lightgreen"} image={glasswork2} heading={"Interior Finishing"} subheading={"Let's not forget the final flourish! Our skilled painters breathe new life into your space with a fresh coat of paint, tackling walls, ceilings, trim, and accents.  Elevate your interior design with stunning wallpaper options, from classic patterns to modern prints.  Finally, strategically placed glass partitions, shower enclosures, mirrors, and decorative glass elements can enhance both the beauty and functionality of your home."}/>
        </div> */}
         <div className='mx-auto text-center lg:mt-8 mb-8'>
-            <h2 className='lg:text-4xl font-bold font-playfair lg:mb-6 sm:text-3xl sm:mb-2 sm:mt-2 sm:text-red-600' >Services we offer</h2>
+            <h2 className='lg:text-4xl font-bold font-playfair lg:mb-6 sm:text-3xl sm:mb-2 sm:mt-2 sm:text-red-700 underline' >Services we offer</h2>
+            <p className='text-lg italic sm:text-sm md:text-sm lg:text-lg  md:w-full sm:w-full lg:w-[90%] xl:w-[50%] mt-4 mb-4 text-green-900 font-semibold '>We provide expert paint work, stylish false ceilings, sleek gypsum ceilings, precise fabrication, reliable civil work, transformative home renovation, high-quality aluminum and uPVC installations, and elegant glass work</p>
           <div className='flex flex-wrap flex-row gap-4' >
             
-          <Cards image={furniture} heading={"Furniture Works"} subheading={"We design Wardrobes, Kitchen Cabinets based"} />
-          <Cards image={lightning} heading={"Lightning Works"} subheading={"Best projects and products in the commercial"} />
+          <Cards image={furniture} heading={"Fabrication Works"} subheading={"We design Wardrobes, Kitchen Cabinets based"} />
+          <Cards image={lightning} heading={"Gypsum Ceiling"} subheading={"Best projects and products in the commercial"} />
           <Cards image={falsec} heading={"False Ceiling"} subheading={"Changing business climate, workplace design"} />
           <Cards image={paint} heading={"Paint & Art works"} subheading={"Designing hospital area with equipments needs"} />
           <Cards image={glasswork} heading={"Civil Works"} subheading={"Will differentiate from the ordinary restaurants"} />
-          <Cards image={glasswork2} heading={"Industrial Designs"} subheading={"Will differentiate you from the restaurants"} />
-          <Cards image={interior} heading={"Modular Kitchens"} subheading={"Functional kitchen, wardrobe and storage"} />
-          <Cards image={living} heading={"Full Home Interiors"} subheading={"Turnkey Interior Solutions for your home"} />
+          {/* <Cards image={glasswork2} heading={"Industrial Designs"} subheading={"Will differentiate you from the restaurants"} /> */}
+          {/* <Cards image={interior} heading={"Modular Kitchens"} subheading={"Functional kitchen, wardrobe and storage"} /> */}
+          <Cards image={upvc} heading={"uPVC Works"} subheading={"Turnkey Interior Solutions for your home"} />
           <Cards image={room} heading={"Luxury Interiors"} subheading={"Tailored Interiors that refine elegance"} />
-          <Cards image={room2} heading={"Renovations"} subheading={"Expert Solutions to upgrade your home"} />
+          <Cards image={room2} heading={"Home Renovations"} subheading={"Expert Solutions to upgrade your home"} />
 
             
             
