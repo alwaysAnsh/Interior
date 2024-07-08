@@ -1,6 +1,5 @@
 import React from 'react'
 import room2 from '../assets/room2.jpg'
-import logo from '../assets/logo.png'
 import {Link} from 'react-router-dom'
 import { FaFacebook } from "react-icons/fa";
 import { FaFacebookMessenger } from "react-icons/fa6";
