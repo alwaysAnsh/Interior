@@ -55,7 +55,7 @@ const ServicesPage = () => {
        </div> */}
         <div className='mx-auto text-center lg:mt-8 mb-8'>
             <h2 className='lg:text-4xl font-bold font-playfair lg:mb-6 sm:text-3xl sm:mb-2 sm:mt-2 sm:text-red-700 underline' >Services we offer</h2>
-            <p className='text-lg italic sm:text-sm md:text-sm lg:text-lg  md:w-full sm:w-full lg:w-[90%] xl:w-[50%] mt-4 mb-4 text-green-900 font-semibold '>We provide expert paint work, stylish false ceilings, sleek gypsum ceilings, precise fabrication, reliable civil work, transformative home renovation, high-quality aluminum and uPVC installations, and elegant glass work</p>
+            <p className='text-lg italic sm:text-sm md:text-sm lg:text-lg  md:w-full sm:w-full lg:w-[90%] xl:w-[50%] mt-4 mb-4  '>We provide expert paint work, stylish false ceilings, sleek gypsum ceilings, precise fabrication, reliable civil work, transformative home renovation, high-quality aluminum and uPVC installations, and elegant glass work</p>
           <div className='flex flex-wrap flex-row gap-4' >
             
           <Cards image={furniture} heading={"Fabrication Works"} subheading={"We design Wardrobes, Kitchen Cabinets based"} />
