@@ -24,7 +24,7 @@ const CountSection = () => {
       <div className='flex flex-col gap-4 lg:w-[30%] w-full' >
         <h2 className='font-playfair text-2xl text-yellow-200 sm:pl-2 md:pl-2 lg:pl-0' >Cozy Sofa</h2>
         <p className='text-white sm:pl-2 md:pl-2 lg:pl-0 sm:pb-4 md:pb-4 lg:pb-0 text-sm font-maven ' >
-        Life's too short for stiff sofas.  Our cozy havens invite movie marathons, naps, and pure relaxation. Let your stress melt away, one plush cushion at a time.          </p>
+        We provide expert paint work, stylish false ceilings, sleek gypsum ceilings, precise fabrication, reliable civil work, transformative home renovation, high-quality aluminum and uPVC installations, and elegant glass work       </p>
       </div>
       
     </div>
@@ -33,3 +33,6 @@ const CountSection = () => {
 }
 
 export default CountSection
+
+
+// Life's too short for stiff sofas.  Our cozy havens invite movie marathons, naps, and pure relaxation. Let your stress melt away, one plush cushion at a time. 
