@@ -14,6 +14,7 @@ import ServicesPage from './pages/ServicesPage'
 import Home from './pages/Home'
 import About from './pages/About'
 import { ContactUs } from './pages/ContactUs'
+import ElfSightWidget from './components/ElfSightWidget'
 
 function App() {
   
@@ -59,6 +60,7 @@ function App() {
           <Route path='/our-services' element={<ServicesPage/>} />
           <Route path='/about-us' element={<About/>} />
           <Route path='/contact-us' element={<ContactUs/>} />
+          <Route path='/review' element={<ElfSightWidget/>} />
       </Routes>
       <div className='' >
         <Footer/>

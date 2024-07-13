@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from './frequentyUsed/Button'
+import {Link} from 'react-router-dom'
 
 const Testimonials = () => {
   return (
@@ -61,6 +62,12 @@ const Testimonials = () => {
             </div>
         </div>
     </div>
+    <div  className=' mb-3 p-2 text-center text-xl cursor-pointer hover:bg-blue-500 transition-all duration-200 lg:w-1/4 w-1/2 mx-auto border-2 border-blue-400 bg-blue-400 text-white font-semibold rounded-lg ' >
+            <Link to='/review' >
+            <a>Read reviews on Google</a>
+            </Link>
+        </div>
+        
 </div>
         
     </div>

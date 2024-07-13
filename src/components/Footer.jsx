@@ -11,7 +11,10 @@ import { scrollToTop } from '../utils/srollToTop';
 
 const Footer = () => {
   return (
-    <div className='w-screen bg-black border-t-2' >
+    <div className='w-screen bg-black border-t-2 md:flex sm:flex sm:flex-col lg:flex-row ' >
+      <div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d219.04426823169177!2d77.43911307479932!3d28.548486500000013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce97524f632ff%3A0x57db1018e4906af5!2sDigital%20interior!5e0!3m2!1sen!2sin!4v1720880567095!5m2!1sen!2sin" width="600" height="450"  allowfullscreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+      </div>
       <footer className="flex flex-col space-y-5   justify-center mt-3 mb-16   ">
 
 <nav class="flex justify-center flex-wrap gap-6 text-white font-medium mt-4 ">
